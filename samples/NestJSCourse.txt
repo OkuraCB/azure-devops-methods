@@ -1,0 +1,263 @@
+Get Started Here!
+1. How to Get Help
+2. Join Our Community!
+3. Course Resources
+The Basics of Nest
+4. Project Setup
+5. TypeScript Configuration
+6. Creating a Controller
+7. Starting Up a Nest App
+8. File Naming Conventions
+9. Routing Decorators
+Generating Projects With the Nest CLI
+10. App Setup
+11. Using the Nest CLI to Generate Files
+12. More on Generating Files
+13. Adding Routing Logic
+14. [Optional] Postman Setup
+15. [Optional] VSCode REST Client Extension
+Validating Request Data with Pipes
+16. Accessing Request Data with Decorators
+17. Using Pipes for Validation
+18. Adding Validation Rules
+19. Behind the Scenes of Validation
+20. How Type Info is Preserved
+Nest Architecture: Services and Repositories
+21. Services and Repositories
+22. Implementing a Repository
+23. Reading and Writing to a Storage File
+24. Implementing a Service
+25. Manual Testing of the Controller
+26. Reporting Errors with Exceptions
+27. Understanding Inversion of Control
+28. Introduction to Dependency Injection
+29. Refactoring to Use Dependency Injection
+30. Few More Notes on DI
+Nest Architecture: Organizing Code with Modules
+31. Project Overview
+32. Generating a Few Files
+33. Setting Up DI Between Modules
+34. More on DI Between Modules
+35. Consuming Multiple Modules
+36. Modules Wrapup
+Big Project Time!
+37. App Overview
+38. API Design
+39. Module Design!
+40. Generating Modules, Controllers, and Services
+Persisting Data with TypeORM
+41. Persistent Data with Nest
+42. Setting Up a Database Connection
+43. Creating an Entity and Repository
+44. Viewing a DB's Contents
+45. Understanding TypeORM Decorators
+46. One Quick Note on Repositories
+47. A Few Extra Routes
+48. Setting Up Body Validation
+49. Manual Route Testing
+Creating and Saving User Data
+50. Creating and Saving a User
+51. Quick Breather and Review
+52. More on Create vs Save
+53. Required Update for find and findOne Methods
+54. Querying for Data
+55. Updating Data
+56. Removing Users
+57. Finding and Filtering Records
+58. Removing Records
+59. Updating Records
+60. A Few Notes on Exceptions
+Custom Data Serialization
+61. Excluding Response Properties
+62. Solution to Serialization
+63. How to Build Interceptors
+64. Serialization in the Interceptor
+65. Customizing the Interceptor's DTO
+66. Wrapping the Interceptor in a Decorator
+67. Controller-Wide Serialization
+68. A Bit of Type Safety Around Serialize
+Authentication From Scratch
+69. Authentication Overview
+70. Reminder on Service Setup
+71. Implementing Signup Functionality
+72. [Optional] Understanding Password Hashing
+73. Salting and Hashing the Password
+74. Creating a User
+75. Handling User Sign In
+76. Setting up Sessions
+77. Changing and Fetching Session Data
+78. Signing in a User
+79. Getting the Current User
+80. Signing Out a User
+81. Two Automation Tools
+82. Custom Param Decorators
+83. Why a Decorator and Interceptor
+84. Communicating from Interceptor to Decorator
+85. Small Fix for CurrentUserInterceptor
+86. Connecting an Interceptor to Dependency Injection
+87. Globally Scoped Interceptors
+88. Preventing Access with Authentication Guards
+Getting Started with Unit Testing
+89. Testing Overview
+90. Testing Setup
+91. Yes, Testing is Confusing
+92. Getting TypeScript to Help With Mocks
+93. Quick Note to Help Speed Up Your Tests
+94. Improving File Layout
+95. Ensuring Password Gets Hashed
+96. Refactor 'Email in Use' Test to Address Jest Breaking Changes
+97. Changing Mock Implementations
+98. Refactor 'Unused Email' Test to Address Jest Breaking Changes
+99. Testing the Signin Flow
+100. Refactor 'Invalid Password' Test to Address Jest Breaking Changes
+101. Checking Password Comparison
+102. More Intelligent Mocks
+103. Refactor 3 Mocks to Address Jest Breaking Changes
+104. Refactoring to Use Intelligent Mocks
+105. Unit Testing a Controller
+106. More Mock Implementations
+107. Refactor 'User id is not found' Test to Address Jest Breaking Changes
+108. Not Super Effective Tests
+109. Testing the Signin Method
+Integration Testing
+110. Getting Started with End to End Testing
+111. Creating an End to End Test
+112. App Setup Issues in Spec Files
+113. Applying a Globally Scoped Pipe
+114. Applying a Globally Scoped Middleware
+115. Solving Failures Around Repeat Test Runs
+116. Creating Separate Test and Dev Databases
+Managing App Configuration
+117. Understanding Dotenv
+118. Applying Dotenv for Config
+119. Specifying the Runtime Environment
+120. Solving a SQLite Error
+121. It Works!
+122. A Followup Test
+Relations with TypeORM
+123. Back to Reports
+124. Adding Properties to Reports
+125. A DTO for Report Creation
+126. Receiving Report Creation Requests
+127. Saving a Report with the Reports Service
+128. Testing Report Creation
+129. Building Associations
+130. Types of Associations
+131. The ManyToOne and OneToMany Decorators
+132. Important Note About Deleting Database - Do Not Skip
+133. More on Decorators
+134. Setting up the Association
+135. Formatting the Report Response
+136. Transforming Properties with a DTO
+A Basic Permissions System
+137. Adding in Report Approval
+138. Required Update for changeApproval Method
+139. Testing Report Approval
+140. Authorization vs Authentication
+141. Adding an Authorization Guard
+142. The Guard Doesn't Work?!
+143. Middlewares, Guards, and Interceptors
+144. Assigning CurrentUser with a Middleware
+145. Fixing a Type Definition Error
+146. Validating Query String Values
+147. Transforming Query String Data
+148. How Will We Generate an Estimate
+Query Builders with TypeORM
+149. Creating a Query Builder
+150. Writing a Query to Produce the Estimate
+151. Testing the Estimate Logic
+Production Deployment
+152. The Path to Production
+153. Providing the Cookie Key
+154. Understanding the Synchronize Flag
+155. The Dangers of Synchronize
+156. The Theory Behind Migrations
+157. Headaches with Config Management
+158. TypeORM and Nest Config is Great
+159. Env-Specific Database Config
+160. Installing the TypeORM CLI
+161. Generating and Running Migrations
+162. Required Migration Update for Production
+163. Running Migrations During E2E Tests
+164. Production DB Config
+165. Heroku CLI Setup Instructions
+166. Heroku Specific Project Config
+167. Deploying the App - (Final Lecture)
+[Bonus] Appendix: TypeScript
+168. How to Get Help
+169. TypeScript Overview
+170. Environment Setup
+171. Important Axios Version Information
+172. A First App
+173. Executing TypeScript Code
+174. One Quick Change
+175. Catching Errors with TypeScript
+176. Catching More Errors!
+177. Course Overview
+178. Types
+179. More on Types
+180. Examples of Types
+181. Where Do We Use Types?
+182. Type Annotations and Inference
+183. Annotations with Variables
+184. Object Literal Annotations
+185. Annotations Around Functions
+186. Understanding Inference
+187. The Any Type
+188. Fixing the "Any" Type
+189. Delayed Initialization
+190. When Inference Doesn't Work
+191. More Annotations Around Functions
+192. Inference Around Functions
+193. Annotations for Anonymous Functions
+194. Void and Never
+195. Destructuring with Annotations
+196. Annotations Around Objects
+197. Arrays in TypeScript
+198. Why Typed Arrays?
+199. Multiple Types in Arrays
+200. When to Use Typed Arrays
+201. Tuples in TypeScript
+202. Tuples in Action
+203. Why Tuples?
+204. Interfaces
+205. Long Type Annotations
+206. Fixing Annotations with Interfaces
+207. Syntax Around Interfaces
+208. Functions In Interfaces
+209. Code Reuse with Interfaces
+210. General Plan with Interfaces
+211. Classes
+212. Basic Inheritance
+213. Class Method Modifiers
+214. Fields in Classes
+215. Fields with Inheritance
+216. Where to Use Classes
+217. Updated Parcel Instructions
+218. App Overview
+219. Bundling with Parcel
+220. Project Structure
+221. IMPORTANT Info About Faker Installation
+222. Generating Random Data
+223. Type Definition Files
+224. Using Type Definition Files
+225. Export Statements in TypeScript
+226. Defining a Company
+227. Important Note About Google Maps Key
+228. Adding Google Maps Support
+229. Required Update for New @types Library
+230. Google Maps Integration with TypeScript
+231. Exploring Type Definition Files
+232. Hiding Functionality
+233. Why Use Private Modifiers? Here's Why
+234. Adding Markers
+235. Duplicate Code
+236. One Possible Solution
+237. Restricting Access with Interfaces
+238. Implicit Type Checks
+239. Showing Popup Windows
+240. Updating Interface Definitions
+241. Optional Implements Clauses
+242. App Wrapup
+Bonus!
+243. Bonus!
