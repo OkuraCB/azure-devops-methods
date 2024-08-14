@@ -6,7 +6,7 @@ So, this collection of functions can help you to upload your whole spreadsheet (
 ## How does it work?
 
 This project was made out of need for a tool to upload courses and modules and videos on the Azure DevOps environment, so it will not be able to handle every situation, but it is for sure easily adaptable with some Python knowledge.
-In any case, if any questions arise during the process, don't hesitate to email me: arthur.souza@orange.com
+In any case, if any questions arise during the process, don't hesitate to email me: arthur-illa@hotmail.com
 
 To make it work, we will make use of the Azure DevOps Python API, which is just a thin wrapper to all the requisitions that the Azure REST API can handle.
 The two links for the documentations are bellow.
